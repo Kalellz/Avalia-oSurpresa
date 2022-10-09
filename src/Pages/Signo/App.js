@@ -10,7 +10,7 @@ function App() {
     return (
         <main>
             <h1>Você é de Libra?</h1>
-            <section className='VA-Content'>
+            <section>
                 <input type="number" class="form-control" placeholder="Dia" value={dia} onChange={(e) => setDia(e.target.value)} />
                 <input type="text" class="form-control" placeholder="Mes" value={mes} onChange={(e) => setMes(e.target.value)} />
                 <button type="button" class="btn btn-primary" onClick={() => setResultado(SignoLibra(mes, dia))}>Verificar</button>

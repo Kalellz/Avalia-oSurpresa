@@ -13,7 +13,7 @@ function App() {
   return (
     <main>
       <h1>Calcular Preço Açai</h1>
-      <section className='VA-Content'>
+      <section>
         <input type="number" class="form-control" placeholder="Pequeno" value={pequeno} onChange={(e) => setPequeno(e.target.value)} />
         <input type="number" class="form-control" placeholder="Medio" value={medio} onChange={(e) => setMedio(e.target.value)}/>
         <input type="number" class="form-control" placeholder="Grande" value={grande} onChange={(e) => setGrande(e.target.value)}/>

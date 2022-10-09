@@ -9,7 +9,7 @@ function App() {
     return (
         <main>
             <h1>Calcular Preço Sorvete</h1>
-            <section className='VA-Content'>
+            <section>
                 <input type="number" class="form-control" placeholder="Gramas" value={gramas} onChange={(e) => setGramas(e.target.value)} />
                 <button type="button" class="btn btn-primary" onClick={() => setResultado(CalcularSorvete(gramas))}>Calcular</button>
             </section>
