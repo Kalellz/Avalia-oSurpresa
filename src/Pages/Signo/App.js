@@ -3,8 +3,8 @@ import { useState } from 'react';
 import SignoLibra from '../../Functions/SignoLibra';
 
 function App() {
-    const [dia, setDia] = useState()
-    const [mes, setMes] = useState()
+    const [dia, setDia] = useState(0)
+    const [mes, setMes] = useState('')
     const [resultado, setResultado] = useState()
     return (
         <main>

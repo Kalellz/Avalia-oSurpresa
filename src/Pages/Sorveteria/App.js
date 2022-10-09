@@ -3,7 +3,7 @@ import { useState } from 'react';
 import CalcularSorvete from '../../Functions/CalcularSorvete';
 
 function App() {
-    const [gramas, setGramas] = useState()
+    const [gramas, setGramas] = useState(0)
     const [resultado, setResultado] = useState()
 
     return (
