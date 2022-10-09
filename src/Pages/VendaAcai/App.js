@@ -4,10 +4,10 @@ import CalcularAcai from '../../Functions/CalcularAcai'
 
 function App() {
 
-  const [pequeno, setPequeno] = useState(0)
-  const [medio, setMedio] = useState(0)
-  const [grande, setGrande] = useState(0)
-  const [desconto, setDesconto] = useState(0)
+  const [pequeno, setPequeno] = useState()
+  const [medio, setMedio] = useState()
+  const [grande, setGrande] = useState()
+  const [desconto, setDesconto] = useState()
   const [resultado, setResultado] = useState()
 
   return (
