@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import CalcularSorvete from './CalcularSorvete';
+import CalcularSorvete from '../../Functions/CalcularSorvete';
 
 function App() {
     const [gramas, setGramas] = useState()

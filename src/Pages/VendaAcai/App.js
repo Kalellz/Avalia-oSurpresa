@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import CalcularAcai from './CalcularAcai.js'
+import CalcularAcai from '../../Functions/CalcularAcai'
 
 function App() {
   

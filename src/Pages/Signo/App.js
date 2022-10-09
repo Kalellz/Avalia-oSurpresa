@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import SignoLibra from './SignoLibra';
+import SignoLibra from '../../Functions/SignoLibra';
 
 function App() {
     const [dia, setDia] = useState()
