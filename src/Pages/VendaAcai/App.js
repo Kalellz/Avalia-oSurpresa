@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
+import CalcularAcai from './CalcularAcai.js'
 
 function App() {
   
@@ -9,18 +10,6 @@ function App() {
   const [desconto, setDesconto] = useState()
   const [resultado, setResultado] = useState()
 
-  function CalcularAcai(Pequeno, Medio, Grande, Desconto){
-    if(Desconto == 0){
-      const Total = [(Pequeno*13.50) + (Medio*15) + (Grande*17.50)];
-      return Total
-    } else if(Desconto == 100){
-      const Total = 0;
-      return Total
-    } else{
-    const Total = [(Pequeno*13.50) + (Medio*15) + (Grande*17.50)]/100*Desconto;
-    return Total
-    }
-  }
   return (
     <main>
       <h1>Calcular Preço Açai</h1>
