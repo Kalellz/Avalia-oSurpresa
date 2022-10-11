@@ -8,6 +8,7 @@ function App() {
                 <a type="button" class="btn btn-outline-dark" href='/Signo'>Prova 02 - Signo Libra</a>
                 <a type="button" class="btn btn-outline-dark" href='/Sorveteria'>Prova 03 - Sorveteria</a>
                 <a type="button" class="btn btn-outline-dark" href='/Salario'>Prova 04 - Salário</a>
+                <a type="button" class="btn btn-outline-dark" href='/Febre'>Prova 06 - Febre</a>
             </section>
         </main>
     );
