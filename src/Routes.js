@@ -3,6 +3,7 @@ import Home from './Pages/Home/App.js';
 import VendaAcai from './Pages/VendaAcai/App.js';
 import Signo from './Pages/Signo/App.js';
 import Sorveteria from './Pages/Sorveteria/App.js';
+import Salario from './Pages/Salario/App.js';
 
 export default function Index() {
 	return (
@@ -12,6 +13,7 @@ export default function Index() {
 				<Route path="/VendaAcai" element={<VendaAcai />} />
 				<Route path="/Signo" element={<Signo />} />
 				<Route path="/Sorveteria" element={<Sorveteria />} />
+				<Route path="/Salario" element={<Salario />} />
 			</Routes>
 		</BrowserRouter>
 	);
