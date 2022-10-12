@@ -10,24 +10,25 @@ function App() {
 	const [resultado, setResultado] = useState();
 
 	useEffect(() => {
+		const message = "O valor não pode ser menor que 0."
 		if (pequeno < 0) {
 			toast.dismiss();
-			toast.error("O valor precisa ser maior que 0.");
+			toast.error(message);
 			setPequeno(0);
 		}
 		if (medio < 0) {
 			toast.dismiss();
-			toast.error("O valor precisa ser maior que 0.");
+			toast.error(message);
 			setMedio(0);
 		}
 		if (grande < 0) {
 			toast.dismiss();
-			toast.error("O valor precisa ser maior que 0.");
+			toast.error(message);
 			setGrande(0);
 		}
 		if (desconto < 0) {
 			toast.dismiss();
-			toast.error("O valor precisa ser maior que 0.");
+			toast.error(message);
 			setDesconto(0);
 		}
 	}, [pequeno, medio, grande, desconto]);
