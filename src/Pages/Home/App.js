@@ -25,7 +25,7 @@ function App() {
 				<a type="button" class="btn btn-outline-dark w-75" href="/Familia">
 					Prova 07 - Familia
 				</a>
-				<a type="button" class="btn btn-outline-dark w-75" href="/Orcamento">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Ingresso">
 					Prova 08 - Ingressos
 				</a>
 			</section>
