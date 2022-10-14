@@ -4,23 +4,29 @@ function App() {
 	return (
 		<main>
 			<section className="Home-Content">
-				<a type="button" class="btn btn-outline-dark" href="/VendaAcai">
+				<a type="button" class="btn btn-outline-dark w-75" href="/VendaAcai">
 					Prova 01 - Venda Açai
 				</a>
-				<a type="button" class="btn btn-outline-dark" href="/Signo">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Signo">
 					Prova 02 - Signo Libra
 				</a>
-				<a type="button" class="btn btn-outline-dark" href="/Sorveteria">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Sorveteria">
 					Prova 03 - Sorveteria
 				</a>
-				<a type="button" class="btn btn-outline-dark" href="/Salario">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Salario">
 					Prova 04 - Salário
 				</a>
-				<a type="button" class="btn btn-outline-dark" href="/Paradas">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Paradas">
 					Prova 05 - Paradas
 				</a>
-				<a type="button" class="btn btn-outline-dark" href="/Febre">
+				<a type="button" class="btn btn-outline-dark w-75" href="/Febre">
 					Prova 06 - Febre
+				</a>
+				<a type="button" class="btn btn-outline-dark w-75" href="/Familia">
+					Prova 07 - Familia
+				</a>
+				<a type="button" class="btn btn-outline-dark w-75" href="/Orcamento">
+					Prova 08 - Ingressos
 				</a>
 			</section>
 		</main>

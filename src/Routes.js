@@ -6,6 +6,8 @@ import Sorveteria from "./Pages/Sorveteria/App.js";
 import Salario from "./Pages/Salario/App.js";
 import Paradas from "./Pages/Paradas/App.js";
 import Febre from "./Pages/Febre/App.js";
+import Familia from "./Pages/Familia/App.js";
+import Ingresso from "./Pages/Ingresso/App.js";
 
 export default function Index() {
 	return (
@@ -18,6 +20,8 @@ export default function Index() {
 				<Route path="/Salario" element={<Salario />} />
 				<Route path="/Paradas" element={<Paradas />} />
 				<Route path="/Febre" element={<Febre />} />
+				<Route path="/Familia" element={<Familia />} />
+				<Route path="/Ingresso" element={<Ingresso />} />
 			</Routes>
 		</BrowserRouter>
 	);
