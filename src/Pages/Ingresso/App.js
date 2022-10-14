@@ -4,7 +4,7 @@ import CalcularIngresso from "../../Functions/CalcularIngresso";
 function App() {
     const [inteiras, setInteiras] = useState();
     const [meias, setMeias] = useState();
-    const [diaSemana, setDiaSemana] = useState("");
+    const [diaSemana, setDiaSemana] = useState("Selecionar Dia da Semana");
     const [nacional, setNacional] = useState(true);
     const [resultado, setResultado] = useState();
     return (
@@ -18,13 +18,24 @@ function App() {
                 <label>
                     Meias <input type="number" class="form-control" value={meias} onChange={(e) => setMeias(Number(e.target.value))} />
                 </label>
-                <label>
-                    Dia da Semana <input type="text" class="form-control" value={diaSemana} onChange={(e) => setDiaSemana(e.target.value)} />
-                </label>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {diaSemana}
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" onClick={() => { setDiaSemana("domingo") }}>Domingo</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("segunda-feira") }}>Segunda-feira</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("terça-feira") }}>Terça-feira</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("quarta-feira") }}>Quarta-feira</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("quinta-feira") }}>Quinta-feira</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("sexta-feira") }}>Sexta-feira</a></li>
+                        <li><a class="dropdown-item" onClick={() => { setDiaSemana("sabado") }}>Sábado</a></li>
+                    </ul>
+                </div>
                 <label>
                     Nacional <input type="checkbox" class="form-check-input" checked={nacional} onChange={(e) => setNacional(e.target.checked)} />
                 </label>
-                <button type="button" class="btn btn-primary" onClick={() => {setResultado(CalcularIngresso(inteiras, meias, diaSemana, nacional))}}>
+                <button type="button" class="btn btn-primary" onClick={() => { setResultado(CalcularIngresso(inteiras, meias, diaSemana, nacional)) }}>
                     Verificar
                 </button>
             </section>
