@@ -32,7 +32,8 @@ section {
 	}
 }
 .home-main{
-	background-image: url("./Assets/images/background.png");
+	background-image: url("./Assets/images/background.svg");
+	filter:invert(100);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
