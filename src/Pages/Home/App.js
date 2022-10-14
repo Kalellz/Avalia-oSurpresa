@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 	return (
-		<main>
+		<main className="home-main">
 			<section className="Home-Content">
 				<a type="button" class="btn btn-outline-dark w-75" href="/VendaAcai">
 					Prova 01 - Venda Açai
