@@ -28,6 +28,15 @@ function App() {
 				<a type="button" class="btn btn-outline-light w-75" href="/Ingresso">
 					Prova 08 - Ingressos
 				</a>
+				<a type="button" class="btn btn-outline-light w-75" href="/Contar">
+					Prova 09 - Contar
+				</a>
+				<a type="button" class="btn btn-outline-light w-75" href="/Linhas">
+					Prova 10 - Linhas
+				</a>
+				<a type="button" class="btn btn-outline-light w-75" href="/Retangulo">
+					Prova 11 - Retangulo
+				</a>
 			</section>
 		</main>
 	);

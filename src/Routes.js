@@ -8,6 +8,9 @@ import Paradas from "./Pages/Paradas/App.js";
 import Febre from "./Pages/Febre/App.js";
 import Familia from "./Pages/Familia/App.js";
 import Ingresso from "./Pages/Ingresso/App.js";
+import Contar from "./Pages/Contar/App.js";
+import Linhas from "./Pages/Linhas/App.js";
+import Retangulo from "./Pages/Retangulo/App.js";
 
 export default function Index() {
 	return (
@@ -22,6 +25,9 @@ export default function Index() {
 				<Route path="/Febre" element={<Febre />} />
 				<Route path="/Familia" element={<Familia />} />
 				<Route path="/Ingresso" element={<Ingresso />} />
+				<Route path="/Contar" element={<Contar />} />
+				<Route path="/Linhas" element={<Linhas />} />
+				<Route path="/Retangulo" element={<Retangulo />} />
 			</Routes>
 		</BrowserRouter>
 	);
