@@ -6,5 +6,5 @@ export default function CalcularLitros(estudantes, minimoLitros, mililitros) {
 		multiplo++;
 		calc = minimoLitros * multiplo;
 	}
-	return calc;
+	return `Você precisa de no mímino ${calc}L`;
 }

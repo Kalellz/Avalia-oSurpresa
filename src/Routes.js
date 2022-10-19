@@ -11,6 +11,7 @@ import Ingresso from "./Pages/Ingresso/App.js";
 import Contar from "./Pages/Contar/App.js";
 import Linhas from "./Pages/Linhas/App.js";
 import Retangulo from "./Pages/Retangulo/App.js";
+import Litros from "./Pages/Litros/App.js"
 
 export default function Index() {
 	return (
@@ -28,6 +29,7 @@ export default function Index() {
 				<Route path="/Contar" element={<Contar />} />
 				<Route path="/Linhas" element={<Linhas />} />
 				<Route path="/Retangulo" element={<Retangulo />} />
+				<Route path="/Litros" element={<Litros />} />
 			</Routes>
 		</BrowserRouter>
 	);
