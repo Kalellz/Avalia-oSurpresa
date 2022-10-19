@@ -19,7 +19,7 @@ export default function CalcularRetangulo(base, altura, char) {
     }
     else {
         for (let i = 0; i < base; i++) {
-            arr[i] = "*";
+            arr[i] = " *";
             for (let j = 0; j < altura; j++) {
                 mat[j] = arr
             }
