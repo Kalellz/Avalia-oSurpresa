@@ -1,10 +1,11 @@
-function CalcularRetangulo(base, altura){
-    for(linha=1; linha <= altura; linha++){
-        for(coluna=1;coluna <= base;coluna++){
-            process.stdout.write("*");
+export default function CalcularRetangulo(base, altura){
+    let mat = [];
+    let arr = [];
+    for (let i = 0; i < base; i++) {
+        arr[i] = "*";
+        for (let j = 0; j < altura; j++) {
+            mat[j] = arr
         }
-        console.log()
     }
-
+    return mat;
 }
-console.log(CalcularRetangulo(5, 2))
