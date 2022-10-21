@@ -40,6 +40,9 @@ function App() {
 				<a type="button" class="btn btn-outline-light w-75" href="/Litros">
 					Prova 12 - Calcular Litros
 				</a>
+				<a type="button" class="btn btn-outline-light w-75" href="/Juros">
+					Prova 13 - Juros Compostos
+				</a>
 			</section>
 		</main>
 	);
