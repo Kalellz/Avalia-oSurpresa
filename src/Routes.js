@@ -13,6 +13,7 @@ import Linhas from "./Pages/Linhas/App.js";
 import Retangulo from "./Pages/Retangulo/App.js";
 import Litros from "./Pages/Litros/App.js"
 import JurosCompostos from "./Pages/JurosCompostos/App.js"
+import Alunos from "./Pages/Alunos/App.js"
 
 export default function Index() {
 	return (
@@ -32,6 +33,7 @@ export default function Index() {
 				<Route path="/Retangulo" element={<Retangulo />} />
 				<Route path="/Litros" element={<Litros />} />
 				<Route path="/Juros" element={<JurosCompostos />} />
+				<Route path="/Alunos" element={<Alunos />} />
 			</Routes>
 		</BrowserRouter>
 	);

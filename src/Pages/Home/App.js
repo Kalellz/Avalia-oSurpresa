@@ -43,6 +43,9 @@ function App() {
 				<a type="button" class="btn btn-outline-light w-75" href="/Juros">
 					Prova 13 - Juros Compostos
 				</a>
+				<a type="button" class="btn btn-outline-light w-75" href="/Alunos">
+					Prova 14 - Alunos
+				</a>
 			</section>
 		</main>
 	);
