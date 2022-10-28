@@ -5,7 +5,6 @@ function App() {
 
     const [quantAlunos, setQuantAlunos] = useState();
     const [Alunos, setAlunos] = useState([]);
-    const [notas, setNotas] = useState([]);
     const [media, setMedia] = useState()
     const [maior, setMaior] = useState()
     const [menor, setMenor] = useState()
@@ -19,8 +18,6 @@ function App() {
         }
         setAlunos(array)
     }
-
-    console.log(notas)
     return (
         <main>
             <h1>Calcular Informações De Alunos</h1>
@@ -31,14 +28,16 @@ function App() {
                 <button onClick={setarInputs}>Confirmar</button>
                 {Alunos.map((item, index) =>
                     <div>
-                        <input value={notas[index]} onChange={e => notasfinais.push(Number(e.target.value))} type="number"/>
+                        <h1 className="text-center fs-5">Aluno {item+1}</h1>
+                        <input class="form-control" value={notasfinais[index]} onChange={e => {
+                            notasfinais[index] = Number(e.target.value)
+                        }} type="number"/>
                     </div>
                 )}
                 <button type="button" class="btn btn-primary" onClick={() => {
-                    setNotas(notasfinais)
-                    setMedia(CalcularMedia(notas))
-                    setMaior(CalcularMaior(notas))
-                    setMenor(CalcularMenor(notas))
+                    setMedia(CalcularMedia(notasfinais))
+                    setMaior(CalcularMaior(notasfinais))
+                    setMenor(CalcularMenor(notasfinais))
                 }}>
                     Verificar
                 </button>
